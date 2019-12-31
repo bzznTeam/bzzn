@@ -76,7 +76,7 @@
       'banner':about_banner,
     },
     mounted () {
-      this.axios.get('/main/findAllNotices').then(res => {
+      this.axios.get('/main/findAllBinNews').then(res => {
         this.gonggaoList = res.data;
       }).catch(function (err) {
 
